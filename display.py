@@ -1,5 +1,4 @@
 from finite_differences_method import finite_differences_method, get_x_points
-import numpy as np
 import matplotlib.pyplot as plt
 
 ## depends on specific values in matrix_operations !!!
