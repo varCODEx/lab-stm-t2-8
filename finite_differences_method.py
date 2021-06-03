@@ -1,11 +1,15 @@
-import itertools
 import numpy as np
 
 ## - override this section
 # 12
+#
 # xy'' + y' - 1.5xy + x^2 = 0
 # <=>
 # y'' + y'/x - 1.5y = -x
+#
+# y'(0.2) = 0
+# 1.6y(1.2) + 1.4y'(1.2) = 2.1
+##
 
 x0 = 0.2
 h = 0.2
